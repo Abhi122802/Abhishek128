@@ -1,0 +1,16 @@
+/* Custom Horror Cursor */
+body {
+  background-color: black;
+  color: red;
+  font-family: 'Creepster', cursive;
+  text-shadow: 2px 2px 2px red;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  cursor: url('/horror-cursor.png'), auto;
+}
+
+/* Hover Effects */
+a, button, .cta {
+  cursor: url('/horror-cursor.png'), pointer;
+}
